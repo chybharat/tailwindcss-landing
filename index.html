@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Oasis by Emaar Properties at Dubai</title>
+  <meta name="keywords" content="The Oasis Dubai, Villas, Mansions, Emaar Properties" />
+  <meta name="description" content="The Oasis by Emaar Properties is the latest of its kind residential development in Dubai offering villas, where luxury living meets unparalleled serenity." />
+  <link rel="icon" type="image/png" href="./images/fav.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="font-site">
+  <section id="hero" class="relative h-screen w-full bg-cover" style="background-image: url(./images/index.webp);">
+    <header class="relative bg-black md:bg-transparent lg:bg-transparent py-4 m:top-5 left-0 w-full z-50 backdrop-blur">
+      <div class="container mx-auto px-6">
+        <div class="flex items-center justify-between h-16">
+          <div class="text-white text-2xl font-serif">
+            <img src="./images/logo.webp" alt="The Oasis" class="w-28">
+          </div>
+          <nav class="hidden md:flex space-x-8 text-white sticky top-0 z-50">
+            <a href="#" data-target="about" class="hover:text-orange-500 transition">About Project</a>
+            <a href="#" data-target="location" class="hover:text-orange-500 transition">Location</a>
+            <a href="#" data-target="feature" class="hover:text-orange-500 transition">Feature</a>
+            <a href="#" data-target="payment" class="hover:text-orange-500 transition">Payment Plan</a>
+            <a href="#" data-target="contact" class="hover:text-orange-500 transition">Contact</a>
+          </nav>
+          <button id="menuBtn" class="md:hidden border px-2 py-0 text-2xl rounded text-white focus:outline-none">
+            ☰
+          </button>
+        </div>
+      </div>
+
+
+      <div id="mobileMenu" class="hidden md:hidden bg-black/80 backdrop-blur">
+        <nav class="flex flex-col text-white px-4 py-4 space-y-3">
+          <a href="#" data-target="about" class="hover:text-orange-700 border-b border-t pt-2 border-dashed border-gray-400 pb-3">About
+            Project</a>
+          <a href="#" data-target="location" class="hover:text-orange-700 border-b border-dashed border-gray-400 pb-3">Location</a>
+          <a href="#" data-target="feature" class="hover:text-orange-700 border-b border-dashed border-gray-400 pb-3">Feature</a>
+          <a href="#" data-target="payment" class="hover:text-orange-700 border-b border-dashed border-gray-400 pb-3">Payment Plan</a>
+          <a href="#" data-target="contact" class="hover:text-orange-700">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="absolute min-h-screen w-full inset-0 bg-black/60"></div>
+    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full md:w-[50%] max-w-6xl grid grid-rows-[1fr_auto] text-white text-center
+px-4 py-6 md:py-8">
+      <h1 class="text-3xl md:text-5xl">
+        The Oasis <span class="text-orange-600">Dubai</span>
+      </h1>
+      <p class="mt-4 text-lg md:text-2xl tracking-wide">
+        4, 5 & 6 Bedrooms Villas
+      </p>
+      <p class="text-lg md:text-2xl tracking-wide">
+        7 Bedrooms Mansions
+      </p>
+      <a href="#" class="open-modal inline-block mx-auto mt-6 bg-orange-800 text-white hover:bg-white hover:text-orange-800 bottom-1 border border-orange-800
+          px-6 py-3 text-sm tracking-wide transition">
+        Request Call Back
+      </a>
+      <div class="mt-8 grid grid-cols-3 text-center text-white text-xs md:text-base">
+        <div>
+          <div class="text-lg md:text-2xl font-semibold">10%</div>
+          <div class="mt-1">Down Payment</div>
+        </div>
+        <div class="border-x border-white/30">
+          <div class="text-lg md:text-2xl font-semibold">80/20</div>
+          <div class="mt-1">Payment Plan</div>
+        </div>
+        <div>
+          <div class="text-lg md:text-2xl font-semibold">Q2 2029</div>
+          <div class="mt-1">On Handover</div>
+        </div>
+      </div>
+      <div class="mt-6">
+        <div class="text-orange-600 font-semibold text-lg md:text-lg">
+          AED 12.8 Million | €3 Million
+        </div>
+        <div class="text-md md:text-md mt-1">
+          Starting from
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="bg-white py-20 reveal opacity-0 translate-y-10 transition-all duration-700">
+    <div class="container mx-auto px-6 text-center">
+      <div class="group text-center mb-12">
+        <h2 class="text-2xl md:text-3xl text-gray-900 font-semibold">
+          The Oasis <span class="text-orange-800">Dubai</span>
+        </h2>
+        <div class="w-20 h-[2px] bg-orange-800 mx-auto mt-3 group-hover:w-12 transition-all duration-700"></div>
+        <div class="w-28 h-[2px] bg-orange-800 mx-auto mt-1 group-hover:w-32 transition-all duration-700"></div>
+      </div> 
+      
+      <div class="mt-10 text-gray-700 text-base md:text-lg leading-relaxed space-y-6 text-justify">
+        <p>
+          The Oasis by Emaar Properties is the latest of its kind residential
+          development in Dubai offering villas, where luxury living meets
+          unparalleled serenity. Nestled in the heart, this masterpiece is
+          going to redefine the standard of opulence and tranquility.
+        </p>
+
+        <p>
+          In the bustling city of Dubai, where innovation and modernity merge
+          seamlessly, the development emerges as an oasis of calm amidst the
+          vibrant energy. With a visionary design that harmoniously blends
+          nature and urbanity, this exclusive villa community invites you to
+          embark on a remarkable journey of indulgence and sophistication.
+        </p>
+      </div>
+
+
+      <div class="mt-12">
+        <a href="#" class="open-modal inline-block bg-orange-800 text-white hover:bg-white hover:text-orange-800 bottom-1 border border-orange-800
+               px-4 py-3 text-sm tracking-wider transition">
+          Talk to Our Consultant
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    class="relative h-[80vh] w-full bg-cover bg-center reveal opacity-0 translate-y-10 transition-all duration-700"
+    style="background-image: url('./images/full-img1.webp');">
+  </section>
+
+  <section id="location" class="bg-white py-20 reveal opacity-0 translate-y-10 transition-all duration-700">
+    <div class="container mx-auto px-6">
+
+      <div class="group text-center mb-12">
+        <h2 class="text-2xl md:text-3xl text-gray-900 font-semibold">
+          Location <span class="text-orange-800">&</span> Connectivity
+        </h2>
+        <div class="w-20 h-[2px] bg-orange-800 mx-auto mt-3 group-hover:w-12 transition-all duration-700"></div>
+        <div class="w-28 h-[2px] bg-orange-800 mx-auto mt-1 group-hover:w-32 transition-all duration-700"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="light-gallery">
+          <a href="./images/loc.webp">
+          <img src="./images/loc.webp" alt="Location Map" class="rounded-lg shadow-md cursor-zoom-in" />
+          </a>
+        </div>
+        <div>
+          <h3 class="text-2xl mb-4">
+            Located at <span class="text-orange-800 font-semibold">Dubai</span>
+          </h3>
+
+          <p class="text-gray-700 leading-relaxed mb-6">
+            The Oasis is the new villa development located at prime location in
+            Dubai, and ensures easy access to all the key points and destinations
+            of choice. The strategic location allows for effortless commuting
+            and seamless integration into Dubai's vibrant lifestyle.
+          </p>
+
+
+          <ul class="space-y-3 text-gray-800">
+            <li class="flex items-center">
+              <span class="text-orange-800 mr-3">✓</span>
+              Sheikh Zayed Road : <strong class="ml-1">10 Minutes</strong>
+            </li>
+            <li class="flex items-center">
+              <span class="text-orange-800 mr-3">✓</span>
+              Dubai International Airport : <strong class="ml-1">15 Minutes</strong>
+            </li>
+            <li class="flex items-center">
+              <span class="text-orange-800 mr-3">✓</span>
+              The Dubai Mall : <strong class="ml-1">20 Minutes</strong>
+            </li>
+            <li class="flex items-center">
+              <span class="text-orange-800 mr-3">✓</span>
+              Burj Khalifa : <strong class="ml-1">20 Minutes</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gallery reveal opacity-0 translate-y-10 transition-all duration-700">
+    <div class="owl-carousel owl-theme"> 
+      <div class="item">
+        <img src="./images/gly/g1.webp" alt="gallery 1">
+      </div>
+
+      <div class="item">
+        <img src="./images/gly/g2.webp" alt="gallery 2">
+      </div>
+
+      <div class="item">
+        <img src="./images/gly/g3.webp" alt="gallery 3">
+      </div>
+
+      <div class="item">
+        <img src="./images/gly/g4.webp" alt="gallery 4">
+      </div>
+
+      <div class="item">
+        <img src="./images/gly/g5.webp" alt="gallery 5">
+      </div>
+      <div class="item">
+        <img src="./images/gly/g6.webp" alt="gallery 6">
+      </div>
+      <div class="item">
+        <img src="./images/gly/g7.webp" alt="gallery 7">
+      </div>
+      <div class="item">
+        <img src="./images/gly/g8.webp" alt="gallery 8">
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="feature" class="bg-gray-50 py-20 relative reveal opacity-0 translate-y-10 transition-all duration-700"
+    style="background-image: url(./images/patt.png);">
+    <div class="container mx-auto px-6">
+      <div class="group text-center mb-12">
+        <h2 class="text-2xl md:text-3xl text-gray-900 font-semibold">
+          Feature <span class="text-orange-800">&</span> Amenities
+        </h2>
+        <div class="w-20 h-[2px] bg-orange-800 mx-auto mt-3 group-hover:w-12 transition-all duration-700"></div>
+        <div class="w-28 h-[2px] bg-orange-800 mx-auto mt-1 group-hover:w-32 transition-all duration-700"></div>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center">
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/vacations.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Central Park</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/swimming-pool.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Swimming Pool</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/im3.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Shopping Mall</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/im4.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Gym & Sauna</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/im5.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Kids Play Area</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/im7.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Health & Wellness</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/im8.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Restaurants</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/im6.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Leisure Spaces</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/barbecue.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Barbecue Zone</p>
+        </div>
+
+        <div class="bg-white p-6 shadow-sm hover:shadow-md transition">
+          <img src="./images/icons/panoramic.png.webp" class="mx-auto mb-4 h-12" alt="">
+          <p class="text-gray-800">Panoramic Sea Views</p>
+        </div>
+
+      </div>
+
+      <!-- Button -->
+      <div class="text-center mt-12">
+        <a href="#" class="open-modal inline-block bg-orange-800 text-white hover:bg-white hover:text-orange-800 bottom-1 border border-orange-800
+               px-4 py-3 text-sm tracking-wider transition">
+          I'm Interested
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section
+    class="relative h-[80vh] w-full bg-cover bg-center  reveal opacity-0 translate-y-10 transition-all duration-700"
+    style="background-image: url('./images/full-img2.webp');">
+  </section>
+
+  <section id="payment" class="bg-white py-16 reveal opacity-0 translate-y-10 transition-all duration-700">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+
+      <div class="group text-center mb-12">
+        <h2 class="text-2xl md:text-3xl text-gray-900 font-semibold">
+          Payment <span class="text-orange-800">Plan</span>
+        </h2>
+        <div class="w-20 h-[2px] bg-orange-800 mx-auto mt-3 group-hover:w-12 transition-all duration-700"></div>
+        <div class="w-28 h-[2px] bg-orange-800 mx-auto mt-1 group-hover:w-32 transition-all duration-700"></div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="group bg-white md:max-w-56 shadow-2xl rounded-md p-8 hover:bg-orange-800">
+          <h3 class="text-4xl font-semibold group-hover:text-white transition">10%</h3>
+          <p class="mt-2 text-gray-600 group-hover:text-white transition">Down Payment</p>
+        </div>
+
+        <div class="group bg-white md:max-w-56 shadow-2xl rounded-md p-8 hover:bg-orange-800">
+          <h3 class="text-4xl font-semibold group-hover:text-white transition">70%</h3>
+          <p class="mt-2 text-gray-600 group-hover:text-white transition">During Construction</p>
+        </div>
+
+        <div class="group bg-white md:max-w-56 shadow-2xl rounded-md p-8 hover:bg-orange-800">
+          <h3 class="text-4xl font-semibold group-hover:text-white transition">20%</h3>
+          <p class="mt-2 text-gray-600 group-hover:text-white transition">Post-Handover</p>
+        </div>
+
+        <div class="group bg-white md:max-w-56 shadow-2xl rounded-md p-8 hover:bg-orange-800">
+          <h3 class="text-4xl font-semibold group-hover:text-white transition">Q2 2029</h3>
+          <p class="mt-2 text-gray-600 group-hover:text-white transition">Completion</p>
+        </div>
+
+      </div>
+
+      <!-- Button -->
+      <div class="mt-10">
+        <a href="#" class="open-modal inline-block bg-orange-800 text-white hover:bg-white hover:text-orange-800 bottom-1 border border-orange-800
+               px-4 py-3 text-sm tracking-wider transition">
+          Request to Pricing
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section
+    class="relative h-[80vh] w-full bg-cover bg-center reveal opacity-0 translate-y-10 transition-all duration-700"
+    style="background-image: url('./images/full-img3.webp');">
+  </section>
+
+  <section class="bg-white py-16 reveal opacity-0 translate-y-10 transition-all duration-700">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <div class="group text-center mb-12">
+        <h2 class="text-2xl md:text-3xl text-gray-900 font-semibold">
+          Why to Invest in <span class="text-orange-800">Dubai</span>
+        </h2>
+        <div class="w-20 h-[2px] bg-orange-800 mx-auto mt-3 group-hover:w-12 transition-all duration-700"></div>
+        <div class="w-28 h-[2px] bg-orange-800 mx-auto mt-1 group-hover:w-32 transition-all duration-700"></div>
+      </div>
+
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 place-items-center max-w-6xl mx-auto">
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w1.webp" alt="Safest city in the world" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">Safest City in the World</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w2.webp" alt="Fastest Growing Economy" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">Fastest Growing Economy</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w3.webp" alt="High Capital Appreciation" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">High Capital Appreciation</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w4.webp" alt="Ease of Investment" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">Ease of Investment</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w5.webp" alt="Freehold Ownership" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">Freehold Ownership</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w6.webp" alt="Ranks 16th in ease of doing business" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">
+            Ranks 16th in ease of doing business
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w7.webp" alt="100% Tax Free Income" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">100% Tax Free Income</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w8.webp" alt="Long-Term Golden Visa" class="max-h-14 mb-1">
+          <p class="text-sm text-gray-700">Long-Term Golden Visa</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img src="./images/icons/w9.webp" alt="Worldwide Connectivity" class="max-h-14 mb-1">
+          <p class="text-lg text-gray-700">Worldwide Connectivity</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="relative py-20 bg-black bg-cover bg-center reveal opacity-0 translate-y-10 transition-all duration-700"
+    style="background-image: url('./images/contact-bg.webp');">
+    <div class="absolute inset-0 bg-black/70 reveal opacity-0 translate-y-10 transition-all duration-700"></div> 
+    <div class="relative max-w-5xl mx-auto px-4 text-center text-white">
+      <div class="group text-center mb-12">
+        <h2 class="text-2xl md:text-3xl text-white">
+          Register your <span class="text-orange-600">interest</span>
+        </h2>
+        <div class="w-20 h-[2px] bg-orange-600 mx-auto mt-3 group-hover:w-12 transition-all duration-700"></div>
+        <div class="w-28 h-[2px] bg-orange-600 mx-auto mt-1 group-hover:w-32 transition-all duration-700"></div>
+      </div> 
+      <div class="max-w-2xl mx-auto bg-zinc-700/40 border-y border-orange-800 p-8">
+
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+          <input type="text" placeholder="NAME" class="w-full px-4 py-3 text-black outline-none" />
+
+          <input type="email" placeholder="EMAIL" class="w-full px-4 py-3 text-black outline-none" />
+
+          <input type="tel" placeholder="+91 999 999 999"
+            class="md:col-span-2 w-full px-4 py-3 text-black outline-none" />
+
+          <textarea placeholder="MESSAGES" rows="4"
+            class="md:col-span-2 w-full px-4 py-3 text-black outline-none"></textarea>
+
+          <div class="md:col-span-2">
+            <button type="submit"
+              class="bg-orange-800 text-white px-3 py-3 border border-orange-800 hover:bg-white hover:text-orange-800 transition">
+              Send Message
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-[#222] text-white text-center py-6">
+    <p class="text-sm tracking-wide">
+      Copyright © 2025 All Rights Reserved.
+    </p>
+  </footer>
+
+
+  <!-- Fixed Bottom Price Bar -->
+  <div id="priceBar"
+    class="sticky bottom-0 left-0 w-full bg-slate-600 backdrop-blur text-white z-50 transition-transform duration-300 ease-in-out translate-y-full">
+    <div class="max-w-7xl mx-auto px-4 py-3 grid grid-cols-3 text-center">
+      <div>
+        <p class="text-lg font-semibold">AED 13.16 M</p>
+        <p class="text-sm text-gray-300">Starting Price</p>
+      </div>
+      <div>
+        <p class="text-lg font-semibold">80/20</p>
+        <p class="text-sm text-gray-300">Payment Plan</p>
+      </div>
+      <div>
+        <p class="text-lg font-semibold">Q2 2029</p>
+        <p class="text-sm text-gray-300">On Handover</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://api.whatsapp.com/send?l=en&amp;phone=971526906695&amp;text=Hi, I want to know more information about The Oasis by Emaar. Thank you" target="_blank" aria-label="Chat on WhatsApp"
+    class="fixed bottom-16 right-3 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+  </a>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top"
+    class="fixed bottom-5 right-5 z-50 bg-black/70 hover:bg-black text-white w-10 h-10 rounded-full flex items-center justify-center opacity-0 invisible transition-all duration-300">
+    ↑
+  </button>
+
+ 
+
+
+
+<div id="modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 backdrop-blur-sm 
+         transition-all duration-300 ease-out">
+
+  <!-- Modal Box -->
+  <div class="bg-white w-[90%] max-w-md p-6 relative
+              scale-95 transition-all duration-300">
+
+    <!-- Close Button -->
+    <button id="closeModal" class="absolute top-5 right-5 text-xl font-bold">
+      ✕
+    </button> 
+
+    <h2 class="text-lg md:text-xl font-semibold mb-1"> REGISTER YOUR INTEREST!</h2> 
+     <hr class="mb-3 border-gray-300">
+  
+  <div class="mb-4">
+    <label class="block text-sm uppercase tracking-wide mb-1">Name</label>
+    <input type="text" placeholder="" class="w-full border-b border-black focus:border-gray-300 outline-none"/>
+  </div>
+
+  <!-- Email -->
+  <div class="mb-4">
+    <label class="block text-sm uppercase tracking-wide mb-1">Email</label>
+    <input type="email" class="w-full border-b border-black focus:border-gray-300 outline-none"/>
+  </div>
+
+  <!-- Phone -->
+  <div class="mb-4">
+    <label class="block text-sm uppercase tracking-wide mb-1">Phone</label>
+    <div class="flex items-center gap-2 border-b border-black">
+      <span class="text-sm w-16">IN +91</span>
+      <input type="tel" class="w-full outline-none" placeholder="999 999 999"/>
+    </div>
+  </div>
+
+  <!-- Message -->
+  <div class="mb-3">
+    <label class="block text-sm uppercase tracking-wide mb-1">Message</label>
+    <textarea rows="2" class="w-full border-b border-black focus:border-gray-300 outline-none resize-none"></textarea>
+  </div>
+
+  <!-- Submit -->
+  <button
+    type="submit"
+    class="w-full inline-block mx-auto bg-orange-800 text-white hover:bg-white hover:text-orange-800 bottom-1 border border-orange-800
+          px-6 py-3 text-sm tracking-wide transition">
+    SUBMIT
+  </button>
+
+ 
+
+
+  </div>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.min.js"></script> 
+  <script src="./js/main.js"></script>
+  <script src="//unpkg.com/alpinejs" defer></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>  
+</body>
+
+</html>
